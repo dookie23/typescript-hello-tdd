@@ -1,0 +1,32 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "TDD with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "pretest": "npm run build",
+    "test": "mocha dist/tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/up1/typescript-hello-tdd.git"
+  },
+  "keywords": [
+    "tdd",
+    "typescript"
+  ],
+  "author": "Somkiat Puisungnoen <somkiat.p@gmail.com> (http://www.somkiat.cc)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/up1/typescript-hello-tdd/issues"
+  },
+  "homepage": "https://github.com/up1/typescript-hello-tdd#readme",
+  "devDependencies": {
+    "@types/mocha": "2.2.39",
+    "@types/should": "8.1.30",
+    "mocha": "3.2.0",
+    "should": "11.2.0",
+    "typescript": "2.1.6"
+  }
+}
