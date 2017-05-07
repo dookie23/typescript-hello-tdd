@@ -8,7 +8,8 @@ TDD katas using TypeScript (testing with mocha).
 $npm test
 ```
 
-### FizzBuzz Kata
+## FizzBuzz Kata
+
 http://codingdojo.org/kata/FizzBuzz/
 
 ```
