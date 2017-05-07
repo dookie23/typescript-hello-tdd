@@ -1,27 +1,28 @@
 {
-  "name": "helloworld",
-  "version": "1.0.0",
-  "description": "TDD with TypeScript",
+  "name": "typescript-tdd-katas",
+  "version": "1.1.0",
+  "description": "TDD with TypeScript - Katas",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
     "pretest": "npm run build",
-    "test": "mocha dist/tests"
+    "test": "mocha dist/tests/**/*.js",
+    "test-fizzbuzz": "npm run build && mocha dist/tests/fizzbuzz"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/up1/typescript-hello-tdd.git"
+    "url": "git+https://github.com/dookie23/typescript-tdd-katas.git"
   },
   "keywords": [
     "tdd",
     "typescript"
   ],
-  "author": "Somkiat Puisungnoen <somkiat.p@gmail.com> (http://www.somkiat.cc)",
+  "author": "dookie23 <dookie10@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/up1/typescript-hello-tdd/issues"
+    "url": "https://github.com/dookie23/typescript-tdd-katas/issues"
   },
-  "homepage": "https://github.com/up1/typescript-hello-tdd#readme",
+  "homepage": "github.com/dookie23/typescript-tdd-katas#readme",
   "devDependencies": {
     "@types/mocha": "2.2.39",
     "@types/should": "8.1.30",
